@@ -768,7 +768,7 @@ export default function App() {
             marginBottom: 5,
           }}
         >
-          <span>PERSONAL CARD CATALOG</span>
+          
 
           {user ? (
             <button
