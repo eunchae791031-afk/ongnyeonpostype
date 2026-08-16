@@ -644,6 +644,7 @@ export default function App() {
       if (type !== "전체" && entry.type !== type) return false;
       if (adult !== "전체" && entry.adult !== adult) return false;
       if (length !== "전체" && entry.length !== length) return false;
+      if (keyword !== "전체" && !entry.keywords.includes(keyword)) return false;
 
       if (search.trim()) {
         const q = search.trim().toLowerCase();
@@ -663,7 +664,7 @@ export default function App() {
 
       return true;
     });
-  }, [entries, search, type, adult, length]);
+}, [entries, search, type, adult, length, keyword]);
 
   const saveEntry = async (formData) => {
     const payload = {
