@@ -820,7 +820,7 @@ export default function App() {
     style={{
       position: "absolute",
       right: 0,
-      top: -80,
+      top: -120,
       width: 230,
       height: 230,
       objectFit: "contain",
