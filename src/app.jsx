@@ -2,19 +2,19 @@ import React, { useEffect, useMemo, useState } from "react";
 import { supabase } from "./supabase";
 
 const C = {
-  bg: "#EDE5D3",
-  header: "#2B2B2B",
-  headerAlt: "#3F3D38",
-  headerText: "#F2E9D8",
-  card: "#F6EFDF",
-  input: "#FBF8F1",
-  border: "#C9BFA8",
-  ink: "#2B2B2B",
-  inkSoft: "#5A5347",
-  inkFaint: "#9C8F72",
-  tagBg: "#E9E0CB",
-  red: "#9C3B34",
-  green: "#3F6659",
+  bg: "#FFFFFF",
+  header: "#FFFFFF",
+  headerAlt: "#B3262E",
+  headerText: "#FFFFFF",
+  card: "#FFFFFF",
+  input: "#FAFAFA",
+  border: "#E5E5E5",
+  ink: "#222222",
+  inkSoft: "#666666",
+  inkFaint: "#999999",
+  tagBg: "#FCEBEC",
+  red: "#B3262E",
+  green: "#4F7568",
 };
 
 const SERIF = "'Noto Serif KR', serif";
