@@ -806,7 +806,27 @@ export default function App() {
           옹년 포타 검색기
         </h1>
 
-        <div style={{ display: "flex", gap: 7 }}>
+        <div
+  style={{
+    position: "relative",
+    display: "flex",
+    gap: 7,
+    paddingTop: 30,
+  }}
+>
+  <img
+    src={sticker}
+    alt=""
+    style={{
+      position: "absolute",
+      right: 0,
+      top: -12,
+      width: 55,
+      height: 55,
+      objectFit: "contain",
+      pointerEvents: "none",
+    }}
+  />
           <input
             value={search}
             onChange={(e) => setSearch(e.target.value)}
