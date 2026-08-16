@@ -884,6 +884,13 @@ export default function App() {
               </Chip>
             ))}
           </div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 10 }}>
+  {["전체", ...KEYWORDS].map((x) => (
+    <Chip key={x} active={keyword === x} onClick={() => setKeyword(x)}>
+      {x}
+    </Chip>
+  ))}
+</div>
         </div>
       )}
 
