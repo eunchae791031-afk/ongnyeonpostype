@@ -342,27 +342,7 @@ function EntryForm({ initial, onClose, onSave }) {
           />
         </div>
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            gap: 12,
-          }}
-        >
-          <MultiInput
-            label="공 키워드"
-            value={form.gong_keywords}
-            onChange={(v) => set("gong_keywords", v)}
-            presets={GONG_KEYWORDS}
-          />
 
-          <MultiInput
-            label="수 키워드"
-            value={form.su_keywords}
-            onChange={(v) => set("su_keywords", v)}
-            presets={SU_KEYWORDS}
-          />
-        </div>
 
         <div
           style={{
