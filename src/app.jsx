@@ -863,7 +863,7 @@ export default function App() {
               whiteSpace: "nowrap",
             }}
           >
-            🎲 오늘의 포타
+            🦭🦊
           </button>
         </div>
       </header>
