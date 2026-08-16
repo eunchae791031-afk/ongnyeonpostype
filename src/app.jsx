@@ -602,6 +602,7 @@ export default function App() {
   const [type, setType] = useState("전체");
   const [adult, setAdult] = useState("전체");
   const [length, setLength] = useState("전체");
+  const [keyword, setKeyword] = useState("전체");
 
   const [showFilters, setShowFilters] = useState(false);
   const [login, setLogin] = useState(false);
