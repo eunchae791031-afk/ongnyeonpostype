@@ -1,11 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { supabase } from "./supabase";
 
-const SUPABASE_URL = "https://wcpilbmiflxnjfhnhgob.supabase.co";
-const SUPABASE_KEY = "sb_publishable_vOHOjDriIwBEOuq4si_kSw_J4VoK_oM";
-
-const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
-
 const C = {
   bg: "#EDE5D3",
   header: "#2B2B2B",
