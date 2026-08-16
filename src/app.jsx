@@ -821,7 +821,7 @@ export default function App() {
       position: "absolute",
       right: 0,
       top: -12,
-      width: 75,
+      width: 160,
       height: 55,
       objectFit: "contain",
       pointerEvents: "none",
