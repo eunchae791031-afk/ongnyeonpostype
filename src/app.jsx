@@ -1206,7 +1206,7 @@ export default function App() {
                 marginBottom: 10,
               }}
             >
-              ✦ 오늘의 포타 ✦
+              오늘의 옹년
             </div>
 
             <h2 style={{ fontFamily: SERIF, color: C.ink }}>
@@ -1228,7 +1228,7 @@ export default function App() {
                   background: "transparent",
                 }}
               >
-                🎲 다시 뽑기
+                다른 포타 보기
               </button>
 
               <a
@@ -1245,7 +1245,7 @@ export default function App() {
                   textDecoration: "none",
                 }}
               >
-                포스타입 열기 ↗
+                포스타입 열기
               </a>
             </div>
           </div>
